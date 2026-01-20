@@ -16,7 +16,7 @@ def main():
     print()
 
     # Step 1: Load CSV with pandas
-    csv_file = "data/Rice_Cammeo_Osmancik.csv"
+    csv_file = "Rice_Cammeo_Osmancik.csv"
     print("Loading CSV file with pandas...")
     df = pd.read_csv(csv_file)
     print(f"Successfully loaded {len(df)} rows and {len(df.columns)} columns")
